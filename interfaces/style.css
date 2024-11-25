@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section {
+  background: url(https://raw.githubusercontent.com/midudev/javascript-100-proyectos/refs/heads/main/01-tinder-swipe/iphone.webp) no-repeat;
+  background-size: contain;
+  width: 350px;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+iframe {
+  margin-left: -23px;
+  border: none;
+  width:79.5%;  
+  height:80%;
+}
+
+
+footer {
+  width: 80%;
+  height: 40px;
+  margin-right: 23px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #09f;
+  border-radius: 0 0 40px 30px;
+}
+
+footer button {
+  font-size: 25px;
+  color: #c6cede;
+  background: none;
+  border: none;
+}
+
+section input { 
+  background: rgb(158, 200, 229);
+  margin-top: 40px;
+  width: 75%;
+  height: 30px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 0 10px;
+}
+
